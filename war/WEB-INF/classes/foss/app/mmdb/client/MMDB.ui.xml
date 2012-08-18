@@ -1,0 +1,59 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+  xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:app='urn:import:foss.app.mmdb.client'>
+
+
+ <ui:with field='res' type="foss.app.mmdb.client.resources.Resources"/>
+  
+  
+  
+  <g:VerticalPanel borderWidth="1" >
+  			
+  		
+  			
+  			 <g:TabLayoutPanel barUnit='PX' barHeight='30' pixelSize="600,1200">
+ 						 <g:tab>
+    							<g:header size='7'>1970's</g:header>
+    	
+    							
+    							<g:HTMLPanel ui:field="html70sPanel"> <g:Image resource="{res.loading}"/>   </g:HTMLPanel>
+    							
+    					
+    							
+  						 </g:tab>
+  						
+  						
+  						<g:tab >
+    							<g:header size='7'>1980's</g:header>
+    							<g:HTMLPanel ui:field="html80sPanel"> </g:HTMLPanel>						
+  								
+  						</g:tab>
+  						
+  						
+  						<g:tab >
+    							<g:header size='7'>1990's</g:header>
+    							<g:HTMLPanel ui:field="html90sPanel"> </g:HTMLPanel>
+  								
+  						</g:tab>
+  						
+  						
+  						<g:tab >
+    							<g:header size='7'>2000-2009</g:header>
+    							<g:HTMLPanel ui:field="html2000Panel"> </g:HTMLPanel>
+  								
+  						</g:tab>
+  						
+  						<g:tab >
+    							<g:header size='7'>20010-2019</g:header>
+    							<g:HTMLPanel ui:field="html2010Panel"> </g:HTMLPanel>
+  								
+  						</g:tab>
+ 
+ 
+              </g:TabLayoutPanel>
+ 
+  	  
+        	
+  </g:VerticalPanel>
+
+</ui:UiBinder> 

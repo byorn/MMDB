@@ -1,0 +1,2 @@
+serviceClass: foss.app.mmdb.client.DataService
+path: 5245CD02272A5A6F118EC8370BBA725B.gwt.rpc

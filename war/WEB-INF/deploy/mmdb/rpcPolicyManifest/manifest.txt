@@ -1,0 +1,3 @@
+# Module mmdb
+# RPC service class, partial path of RPC policy file
+foss.app.mmdb.client.DataService, 5245CD02272A5A6F118EC8370BBA725B.gwt.rpc

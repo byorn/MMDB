@@ -1,0 +1,75 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--                                                               -->
+    <!-- Consider inlining CSS to reduce the number of requested files -->
+    <!--                                                               -->
+    <link type="text/css" rel="stylesheet" href="MMDB.css">
+
+    <!--                                           -->
+    <!-- Any title is fine                         -->
+    <!--                                           -->
+    <title>Movies I have seen</title>
+    
+    <!--                                           -->
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+    <!--                                           -->
+    <script type="text/javascript" language="javascript" src="mmdb/mmdb.nocache.js"></script>
+  </head>
+
+  <!--                                           -->
+  <!-- The body can have arbitrary html, or      -->
+  <!-- you can leave the body empty if you want  -->
+  <!-- to create a completely dynamic UI.        -->
+  <!--                                           -->
+  <body>
+
+    <!-- OPTIONAL: include this if you want history support -->
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+    
+    <!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+    
+    <div id="header"><img src="header.png"/></div>
+    
+    
+	<div id="wh">
+	<img alt="" src="loading.gif">
+	</div> 
+	<div id="appgoeshere"></div>
+	
+	<div style="position: fixed; top: 20%; left: 47%; border-left-style:ridge; 
+	 border-top-style:ridge; 
+	 border-bottom-style:solid;
+	 border-right-style:solid;
+	 background-color:appworkspace;
+	 font-variant:small-caps;
+	 font-size:large;
+	 font-stretch:extra-expanded;
+	 width: 500px" >
+			
+			You have seen <span id = "seenMovies"></span> movies
+			out of <span id = "totalMovies"></span> of the Most highly rated movies from IMDB.com
+	
+			<br/>
+	
+			That is <span id = "seenPercentage"></span>
+			
+	
+	</div>
+  </body>
+</html>
